@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "description": "Groceries",
+    "amount": 50,
+    "category": "Food",
+    "date": "2024-10-13"
+  },
+  {
+    "id": "2",
+    "description": "Pen and highlighter",
+    "amount": 20,
+    "category": "Stationaries",
+    "date": "2024-10-14"
+  },
+  {
+    "id": "1728830766524",
+    "description": "kpop merch ",
+    "amount": 100,
+    "category": "merch",
+    "date": "2024-10-13"
+  }
+]
