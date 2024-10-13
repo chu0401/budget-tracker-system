@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Budget Tracker</h1>
+    <div id="form-section">
+        <input type="text" id="description" placeholder="Description">
+        <input type="number" id="amount" placeholder="Amount">
+        <input type="text" id="category" placeholder="Category">
+        <input type="date" id="date" placeholder="Date">
+        <button onclick="addExpense()">Add Expense</button>
+    </div>
+    
+    <div id="expenses-section">
+        <h2>All Expenses</h2>
+        <ul id="expenses-list"></ul>
+    </div>
+
+    <div id="total-section">
+        <h3>Total Expenses: RM<span id="total-amount">0</span></h3>
+        <button onclick="getTotalExpenses()">Calculate Total</button>
+    </div>
+    
+    <div id="filter-section">
+        <h3>Filter by Category</h3>
+        <input type="text" id="filter-category" placeholder="Enter category">
+        <button onclick="filterByCategory()">Filter</button>
+    </div>
+    
+    <div id="summary-section">
+        <h3>Monthly Summary</h3>
+        <input type="number" id="summary-year" placeholder="Year (e.g., 2024)">
+        <input type="number" id="summary-month" placeholder="Month (1-12)">
+        <button onclick="getMonthlySummary()">Get Summary</button>
+        <div id="summary-result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
